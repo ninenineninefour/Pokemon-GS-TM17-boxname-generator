@@ -1,0 +1,25 @@
+.box-name {
+  padding-left: 1em;
+  font-size: 48px;
+}
+
+.box-name.box-name-title {
+  padding-left: 0em;
+  font-weight: bold;
+  font-size: 48px;
+}
+
+.box-name.placeholder-box-name {
+  color: DimGray;
+}
+
+.box-sub {
+  position: relative;
+  font-size: 30px;
+}
+
+.box-sup {
+  position: relative;
+  bottom: 12px;
+  font-size: 30px;
+}

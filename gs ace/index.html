@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>TM17 Box Name Generator</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles/style.css">
+  </head>
+  <body class="container">
+    <header>
+      <h1>TM17 Box Name Generator</h1>
+    </header>
+    <div class="panel panel-default">
+      <div class="panel-body">
+        <form class="form-vertical">
+          <label for="hex-code">Hex Code</label>
+          <input class="form-control" name="hex-input" id="hex-code" placeholder="D5BB63" onchange="updateResult();" onpaste="this.onchange();" oninput="this.onchange();">
+        </form>
+        <br>
+        <span class="box-name box-name-title">Box name:</span>
+        <span class="box-name placeholder-box-name" id="box-name-result"><span class="box-sup">P</span><span class="box-sub">K</span>,'t?rs</span>
+      </div>
+    </div>
+
+    <div class="panel panel-default">
+      <div class="panel-body">
+        
+      </div>
+    </div>
+    <script src="scripts/hexToBoxName.js" charset="UTF-8"></script>
+  </body>
+</html>
